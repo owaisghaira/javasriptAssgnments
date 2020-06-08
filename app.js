@@ -1,4 +1,4 @@
-//  Chapter #1 assignmet
+//  Chapter #1 assignment
 // Task1.
  // alert ("welcome to my pet store");
 
@@ -21,7 +21,7 @@
 //Task7
 //coding in html
 
-//Chapter # 2 assignmet
+//Chapter # 2 assignment
 
 //Task 1
 // var username ;
@@ -67,14 +67,27 @@
 // var val = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬" 
 // alert(val)
 
+//Chapter # 3 assignment
+
+//Task 1
+// var age ;
+// age = 25;
+// alert ("I am " + age + " year old");
 
 
+//Task 2
+// var n = 12;
+// alert("You have visited this site " + n + " times")
 
+// Task 3
+// var birthYear = 1990;
+// document.write("My birth year is " + birthYear + " <br> Data type of my decleard variable");
 
-
-
-
-
+//Task 4
+// var visiter = "Doe";
+// var product = "T-Shirt";
+// var quant = 5;
+// document.write(visiter + " order " + quant + " " + product + " on XYZ Clothing store");
 
 
 
