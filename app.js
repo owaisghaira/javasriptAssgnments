@@ -1,25 +1,82 @@
 //  Chapter #1 assignmet
-//1.
+// Task1.
  // alert ("welcome to my pet store");
 
-//2
+//Task2
 //alert ("Error!Please enter a valid password");
 
-//3
+//Task3
 //alert ("Welcome to js Land...  \n happy coding ")
 
-//4
+//Task4
 //alert ("Welcome to js land...")
 //alert ("Happy coding" )
 
-//5
+//Task5
 //console.log ("Hello...I can run Js throug my web browser's console")
 
-//6
+//Task6
 //coding in html
 
-//7
+//Task7
 //coding in html
 
+//Chapter # 2 assignmet
 
-//adddition
+//Task 1
+// var username ;
+
+// Task 2
+// var myName;
+// myName = "owais siddiq";
+// console.log (myName);
+
+//Task 3
+// var message;
+// message = "Hello World";
+// alert(message);
+
+//Task 4
+
+// var name = "john doe";
+// var age = "15 years old";
+// var skill = "Certified Application Development"
+// alert(name)
+// alert(age)
+// alert(skill)
+
+// Task 5
+// var alt = "pizza \npizz \npiz \npi \np"; 
+// alert(alt)
+
+
+// // Task 6
+// var email = "example@example.com"
+// alert("my email is " + email )
+
+// Task 7
+
+// var book;
+// book = "A smarter way to learn JavaScript"
+// alert(book)
+
+// // Task 8
+//  document.write("Yah! I can write HTML project throug Javascript")
+
+// Task 9
+// var val = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬" 
+// alert(val)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
