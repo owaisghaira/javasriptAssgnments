@@ -90,6 +90,29 @@
 // document.write(visiter + " order " + quant + " " + product + " on XYZ Clothing store");
 
 
+//Chapter # 4 assignment
 
+//Task 1
+// var st , nd , rd = "dec";
+// console.log(rd)
+
+// //Task 2
+// //5 legal veriable
+// var $one ;
+// var one1 ;
+// var _one ;
+// var $one1 ;
+// var on1e ;
+
+//5 illegal
+// var .one ;
+// var ,one ;
+// var ?one ;
+// var 1one ;
+// var 123 ;
+
+//Task 3
+
+document.write("Rules for naming JS variables")
 
 
