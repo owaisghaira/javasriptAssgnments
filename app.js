@@ -111,8 +111,57 @@
 // var 1one ;
 // var 123 ;
 
+//Task 3 (a,b,c,d)
+
+//document.write("Rules for naming JS variables <br> Variable names can only contain numbers, $,and _ . <br> For example $my_1stVariable <br> Variables must begin with a letter, $ or _. For example $name, _name or name <br>Variable names are case sensitive <br> Variable names should not be JS keyword")
+
+//Chapter # 5 assignment
+
+//Task 1
+var one = 3;
+var two = 5;
+//var result = one + two ;
+//document.write("Sum of "+ one +" and " + two + " is " + result)
+
+//Task 2
+// var result = one - two ;
+// document.write("Subtraction of "+ one +" and " + two + " is " + result)
+
+// var result = one * two ;
+// document.write("multiplication of "+ one +" and " + two + " is " + result)
+
+// var result = one / two ;
+// document.write("division of "+ one +" and " + two + " is " + result)
+
+// var result = one % two ;
+// document.write("modulus of "+ one +" and " + two + " is " + result)
+
 //Task 3
+// var val ;
+// document.write("Value after variable declaration is " + val+ "<br>")
+// val = 5;
+// document.write("Initial value is : "+val + "<br>")
 
-document.write("Rules for naming JS variables")
+// val = ++val;
+// document.write("value after incriment is : "+val + "<br>")
 
+// val = val + 7;
+// document.write("value after addition is : "+val + "<br>")
+
+// val = --val;
+// document.write("value after decrement is : "+val + "<br>")
+
+// val = val / 3;
+// document.write("The remainder is : 0")
+
+//Task 4
+
+// var ticket = 5;
+// var cost = 600 * ticket;
+// document.write("Total cost To buy " + ticket + " tickets to a movie is "+ cost + " PKR")
+
+// Task 5
+var tbl = 4;
+document.write("Table of 4 <br>")
+document.write("4*1= 4")
 
