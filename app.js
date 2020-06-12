@@ -161,7 +161,63 @@ var two = 5;
 // document.write("Total cost To buy " + ticket + " tickets to a movie is "+ cost + " PKR")
 
 // Task 5
-var tbl = 4;
-document.write("Table of 4 <br>")
-document.write("4*1= 4")
+// var tbl = 4;
+// document.write("Table of 4 <br>")
+// document.write("4 " + "x " + "1 " + "= " + 4*1 + "<br>" );
+// document.write("4 " + "x " + "2 " + "= " + 4*2 + "<br>" );
+// document.write("4 " + "x " + "3 " + "= " + 4*3 + "<br>" );
+// document.write("4 " + "x " + "4 " + "= " + 4*4 + "<br>" );
+// document.write("4 " + "x " + "5 " + "= " + 4*5 + "<br>" );
+// document.write("4 " + "x " + "6 " + "= " + 4*6 + "<br>" );
+// document.write("4 " + "x " + "7 " + "= " + 4*7 + "<br>" );
+// document.write("4 " + "x " + "8 " + "= " + 4*8 + "<br>" );
+// document.write("4 " + "x " + "9 " + "= " + 4*9 + "<br>" );
+// document.write("4 " + "x " + "10 " + "= " + 4*10 + "<br>" );
 
+//Task 6
+// var cen = "25C";
+// document.write( cen + " is 77F <br> " )
+// var far = "21.11111C"
+// document.write("70F is "+ far);
+
+// Task 7
+
+// var price1 = 650;
+// var price2 = 100;
+// var qitem1 = 3;
+// var qitem2 = 7;
+// document.write("price of item 1 is " + price1 + "<br>")
+// document.write("quantity of item 1 is " + qitem1 + "<br>")
+// document.write("price of item 2 is " + price2 + "<br>")
+// document.write("quantity of item 2 is " + qitem2 + "<br>")
+// document.write("shipping charges is  100 <br> <br>")
+// var rec = (price1*qitem1)+ (price2 * qitem2)+100;
+// document.write("Total Cost Of Your Order Is "+ rec)
+
+// Task 8 
+
+// var totalMarks = 980;
+// var obtain  = 804;
+// var result = (804 / 980)*100;
+// document.write("Mark Sheet <br> <br>")
+// document.write("Total Marks is " +totalMarks + "<br>")
+// document.write("Marks Obtain is " +obtain + "<br>")
+// document.write("Percentage is " +result+ "<br>") 
+
+//Task 9
+
+// var dolar = 10 * 104
+// var riyal = 25 * 28
+// var result = dolar + riyal
+
+// document.write("CURRENCY IN PKR <br><br>")
+// document.write("Total currency in PKR :"+ result)
+
+// Task 10
+// var num = 10;
+// var result = (num + 5) * 10 / 2;
+// console.log(result)
+
+// Task 11
+var current = 2020;
+var birth = +prompt("Enter your age",age)
