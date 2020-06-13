@@ -219,5 +219,75 @@ var two = 5;
 // console.log(result)
 
 // Task 11
-var current = 2020;
-var birth = +prompt("Enter your age",age)
+// var current = 2020;
+// var birth = +prompt("Enter your birth year");
+// var age = current - birth ;
+// document.write("Age Calculater <br><br>")
+// document.write("Current year = " + current + "<br>")
+// document.write("Birth year = " + birth + "<br>")
+// document.write("Your Age is  = " + age)
+
+//Task 13
+// var snak = "chocolate chip";
+// var age = +prompt("Enter your age")
+// var maxage = 65;
+// var maxSnake = 3;
+// var cal = (maxage - age) * 365 * 3;
+// console.log(cal);
+// document.write("Favourite Snake :" + snak +"<br>")
+// document.write("Your Age :" + age +"<br>")
+// document.write("Estimated maximume age :" + maxage +"<br>")
+// document.write("Amount of sanke per day :" + maxSnake +"<br>")
+// document.write("You will need "+ cal + " to last you until the ripe old age of 65 <br>")
+
+//Chapter # 6-9 assignment
+
+//Task 1
+// var a = 10;
+// document.write("Result <br>");
+// document.write("The value Of a is : 10 <br> <br>");
+// document.write("The value Of ++a is : 11 <br>");
+// document.write("Now the value of a is : 11 <br> <br>");
+
+// document.write("The value Of a++ is : 11 <br>");
+// document.write("Now the value of a is : 12 <br><br>");
+
+// document.write("The value Of --a is : 11 <br>");
+// document.write("Now the value of a is : 11 <br><br>");
+
+// document.write("The value Of a-- is : 11 <br>");
+// document.write("Now the value of a is : 10 <br><br>");
+
+//Task 2
+// var a = 2,b = 1;
+// var result = --a - --b + ++b + b--;
+//  // result =   1 - 0   + 1   + 1  = 3;         
+// document.write("a = 2 <br>")
+// document.write("b = 1 <br>")
+// document.write("Result is : "+result)
+
+//Task 3
+
+// var name = prompt("Enter Your Name ","Name please")
+// alert("welcome "+ name + " to My Web Site")
+
+//Task 5
+var tab = +prompt("Enter tabel No. ... ")
+if (tab === "" ){
+    
+}
+else{
+    document.write("Table of"+ tab +"<br>")
+document.write("4 " + "x " + "1 " + "= " + tab*1 + "<br>" );
+document.write("4 " + "x " + "2 " + "= " + tab*2 + "<br>" );
+document.write("4 " + "x " + "3 " + "= " + tab*3 + "<br>" );
+document.write("4 " + "x " + "4 " + "= " + tab*4 + "<br>" );
+document.write("4 " + "x " + "5 " + "= " + tab*5 + "<br>" );
+document.write("4 " + "x " + "6 " + "= " + tab*6 + "<br>" );
+document.write("4 " + "x " + "7 " + "= " + tab*7 + "<br>" );
+document.write("4 " + "x " + "8 " + "= " + tab*8 + "<br>" );
+document.write("4 " + "x " + "9 " + "= " + tab*9 + "<br>" );
+document.write("4 " + "x " + "10 " + "= " + tab*10 + "<br>" );
+
+}
+
