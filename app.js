@@ -242,7 +242,7 @@ var two = 5;
 
 //Chapter # 6-9 assignment
 
-//Task 1
+// Chapter # 6-9 assignment # Task 1
 // var a = 10;
 // document.write("Result <br>");
 // document.write("The value Of a is : 10 <br> <br>");
@@ -258,7 +258,8 @@ var two = 5;
 // document.write("The value Of a-- is : 11 <br>");
 // document.write("Now the value of a is : 10 <br><br>");
 
-//Task 2
+// Chapter # 6-9 assignment # Task 2
+
 // var a = 2,b = 1;
 // var result = --a - --b + ++b + b--;
 //  // result =   1 - 0   + 1   + 1  = 3;         
@@ -266,28 +267,220 @@ var two = 5;
 // document.write("b = 1 <br>")
 // document.write("Result is : "+result)
 
-//Task 3
+// Chapter # 6-9 assignment # Task 3
 
 // var name = prompt("Enter Your Name ","Name please")
 // alert("welcome "+ name + " to My Web Site")
 
-//Task 5
-var tab = +prompt("Enter tabel No. ... ")
-if (tab === "" ){
+// Chapter # 6-9 assignment # Task 5
+// var tab = +prompt("Enter tabel No. ... ")
+// if (tab == " " ){
+//     tab = 5;
+//     document.write("Table of "+ tab +"<br>")
+//     document.write("4 " + "x " + "1 " + "= " + tab*1 + "<br>" );
+//     document.write("4 " + "x " + "2 " + "= " + tab*2 + "<br>" );
+//     document.write("4 " + "x " + "3 " + "= " + tab*3 + "<br>" );
+//     document.write("4 " + "x " + "4 " + "= " + tab*4 + "<br>" );
+//     document.write("4 " + "x " + "5 " + "= " + tab*5 + "<br>" );
+//     document.write("4 " + "x " + "6 " + "= " + tab*6 + "<br>" );
+//     document.write("4 " + "x " + "7 " + "= " + tab*7 + "<br>" );
+//     document.write("4 " + "x " + "8 " + "= " + tab*8 + "<br>" );
+//     document.write("4 " + "x " + "9 " + "= " + tab*9 + "<br>" );
+//     document.write("4 " + "x " + "10 " + "= " + tab*10 + "<br>" );
     
-}
-else{
-    document.write("Table of"+ tab +"<br>")
-document.write("4 " + "x " + "1 " + "= " + tab*1 + "<br>" );
-document.write("4 " + "x " + "2 " + "= " + tab*2 + "<br>" );
-document.write("4 " + "x " + "3 " + "= " + tab*3 + "<br>" );
-document.write("4 " + "x " + "4 " + "= " + tab*4 + "<br>" );
-document.write("4 " + "x " + "5 " + "= " + tab*5 + "<br>" );
-document.write("4 " + "x " + "6 " + "= " + tab*6 + "<br>" );
-document.write("4 " + "x " + "7 " + "= " + tab*7 + "<br>" );
-document.write("4 " + "x " + "8 " + "= " + tab*8 + "<br>" );
-document.write("4 " + "x " + "9 " + "= " + tab*9 + "<br>" );
-document.write("4 " + "x " + "10 " + "= " + tab*10 + "<br>" );
+// }
+// else{
+//     document.write("Table of "+ tab +"<br>")
+// document.write("4 " + "x " + "1 " + "= " + tab*1 + "<br>" );
+// document.write("4 " + "x " + "2 " + "= " + tab*2 + "<br>" );
+// document.write("4 " + "x " + "3 " + "= " + tab*3 + "<br>" );
+// document.write("4 " + "x " + "4 " + "= " + tab*4 + "<br>" );
+// document.write("4 " + "x " + "5 " + "= " + tab*5 + "<br>" );
+// document.write("4 " + "x " + "6 " + "= " + tab*6 + "<br>" );
+// document.write("4 " + "x " + "7 " + "= " + tab*7 + "<br>" );
+// document.write("4 " + "x " + "8 " + "= " + tab*8 + "<br>" );
+// document.write("4 " + "x " + "9 " + "= " + tab*9 + "<br>" );
+// document.write("4 " + "x " + "10 " + "= " + tab*10 + "<br>" );
 
-}
+// }
+
+// Chapter # 6-9 assignment # Task 6
+
+// var sub1 = prompt("Enter Subject # 1")
+// var sub2 = prompt("Enter Subject # 2")
+// var sub3 = prompt("Enter Subject # 3")
+// var totalMarks = 100;
+
+// var sub1Marks = +prompt("Enter " + sub1 + " Obtain Marks")
+// var sub2Marks = +prompt("Enter " + sub2 + " Obtain Marks")
+// var sub3Marks = +prompt("Enter " + sub3 + " Obtain Marks")
+
+// document.write("Subject Total Marks Obtain Marks Percentage <br> <br>")
+// document.write(sub1 + "&nbsp;" + 300 +"&nbsp;" + sub1Marks +"&nbsp;" + sub1Marks + "% <br>" );
+// document.write(sub2 + "&nbsp;" + 300 +"&nbsp;" + sub2Marks +"&nbsp;" + sub2Marks + "% <br>" );
+// document.write(sub3 + "&nbsp;" + 300 +"&nbsp;" + sub3Marks +"&nbsp;" + sub2Marks + "% <br>" );
+
+// var obtain = sub1Marks+sub2Marks+sub3Marks
+// var per = obtain / 300 *100
+// document.write("Total Marks 300 &nbsp;  obtain Marks " + obtain +"&nbsp; Percentage " +per);
+
+// Chapter # 9-11 assignment # Task 1
+
+// var city = prompt("Enter Your City Name")
+// if (city == "karachi"){
+//     alert("Welcome to city of lights");
+// }
+// else{
+//     alert("Welcome");
+// }
+
+// Chapter # 9-11 assignment # Task 2
+
+// var gender = prompt("Enter Your Gender ")
+// if (gender == "male"){
+//     alert("Good Morning Sir...")
+// }
+// else if (gender == "female"){
+//     alert("Good Morning Ma'am")
+// }
+// else{
+//     alert("sorry...")
+// }
+
+// Chapter # 9-11 assignment # Task 3
+// var color = prompt("Enter Road signal Color")
+// if(color == "red" ){
+//     alert("Must Stop")
+
+// }
+// else if(color == "yellow" ){
+//     alert("Ready to Move")
+
+// }
+// else if(color == "green" ){
+//     alert("Move Now")
+
+// }
+// else{
+//     alert("Type Again")
+// }
+
+// Chapter # 9-11 assignment # Task 4
+
+// var fuel = prompt("Enter Remaining fuel in litres")
+// if (fuel  > "0.25") {
+//     alert("Let's Go")
+// }
+// if (fuel  < "0.25") {
+//     alert("Please refill the fuel in your car")
+// }
+
+// Chapter # 9-11 assignment # Task 5
+
+//  var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+//  var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+//  var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+//  if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+
+//  if("car" < "cat"){
+// alert("car is smaller than cat");
+// }
+
+// Chapter # 9-11 assignment # Task 6
+
+// var obtain = +prompt("Enter Obtain Marks")
+// var totalmarks = +prompt("Enter Total marks")
+// var percentage = obtain/totalmarks*100
+// var grade = "";
+
+// if (percentage >= 80){
+//     grade = "A+"
+// }
+// else if (percentage >= 70){
+//     grade = "A"
+// }
+// else if (percentage >= 60){
+//     grade = "B"
+// }
+// else if (percentage < 60){
+//     grade = "Fail"
+// }
+// var remarks = " ";
+// if (grade == "A+"){
+//     remarks ="Excellent"
+// }
+// else  if(grade == "A"){
+//     remarks="Good"
+// }
+// else if(grade == "B"){
+//     remarks="You Need To improve"
+
+// }
+// else if (grade == "Fail"){
+//     remarks = "Sorry"
+
+// }
+// else{
+//     remarks = "Enter again"
+// }
+// document.write("Mark Sheet <br>")
+// document.write("Total Marks = " + totalmarks + "<br>")
+// document.write("Obtain Marks = " + obtain + "<br>")
+// document.write("Percentage = " + percentage + "<br>")
+// document.write("Grade = " + grade + "<br>")
+// document.write("Remarks "+ remarks)
+
+// Chapter # 9-11 assignment # Task 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
