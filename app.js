@@ -462,9 +462,87 @@ var two = 5;
 
 // Chapter # 9-11 assignment # Task 7
 
+// var num = 7;
+// var guess = +prompt("Enter guess any number...")
+// if (guess === 7 ){
+//     alert("Bingo! Correct answer.")
+
+// }
+// else if(guess == 8){
+//     alert("Close enough to the correct answer")
+// }
+// else{
+//     alert("Sorry")
+// }
+
+// Chapter # 9-11 assignment # Task 8
+
+// var num = +prompt("Enter Number")
+// var divd = num / 3
+// if (divd % 3 === 0){
+
+//     alert("given number is divided by 3")
+// }
+// else{
+
+//     alert("given number is Not divided by 3")
+// }
+
+// Chapter # 9-11 assignment # Task 9
+
+// var num = +prompt("Enter Number")
+// if (num % 2 === 0 ){
+
+//     alert("given number is even number")
+// }
+// else if (num % 2 === 1 ){
+
+//     alert("given number is odd number")
+// }
+// else{
+//     alert("try again")
+// }
+
+// Chapter # 9-11 assignment # Task 10
+
+// var T = prompt("Enter temperature")
+// if (T > 40){
+//     alert("It is too hot outside.")
+// }
+// else if (T > 30){
+//     alert("The Weather today is Normal.")
+// }
+// else if (T > 20){
+//     alert("Today’s Weather is cool.")
+// }
+// else if (T < 20){
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+// else{
+//     alert("Enter correct temerature")
+// }
 
 
+// Chapter # 9-11 assignment # Task 11
 
+// var first = +prompt("Enter first number")
+// var oprater = prompt("Enter Oprater")
+// var second = +prompt("Enter Second number")
+// if (oprater === "+"){
+//     alert((first) + (second))
+// }
+// else if (oprater === "-"){
+//     alert(first - second)
+// }
+// else if (oprater === "*"){
+//     alert(first * second)
+// }
+// else if (oprater === "/"){
+//     alert(first / second)
+// }
+// else{
+//     alert("Sorry")
+// }
 
 
 
