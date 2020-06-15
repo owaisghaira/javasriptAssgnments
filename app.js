@@ -544,10 +544,28 @@ var two = 5;
 //     alert("Sorry")
 // }
 
+// Chapter # 12-13 assignment # Task 1
 
+// var cod = prompt("Enter number or character")
 
+// var code = cod.charCodeAt();
+// // console.log(code)
+// // a(97-122)
+// // A(65-90)
+// if (code == 65){
+//     alert("character is uppercase letter")
 
+// }
+// else if (code == 97){
+//     alert("character is lowercase letter")
 
+// }
+// else{
+//     alert("character is a number")
+
+// }
+
+// Chapter # 12-13 assignment # Task 2
 
 
 
