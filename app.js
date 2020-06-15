@@ -566,16 +566,94 @@ var two = 5;
 // }
 
 // Chapter # 12-13 assignment # Task 2
+// var num1,num2;
+// num1 = prompt("Enter first no.")
+// num2 = prompt("Enter second  no.") 
 
+// if (parseInt(num1, 10) > parseInt(num2, 10)){
+//     alert(num1)
 
+// }
+// else if (parseInt(num1, 10) < parseInt(num2, 10)){
+//     alert(num2)
 
+// }
+// else if (num1 === num2){
+//     alert("no. are same")
+// }
+// else{
+//     alert("enter number plz")
+// }
 
+// Chapter # 12-13 assignment # Task 3
+// var num = +prompt("Enter any number")
 
+// if (num > 0){
+//     alert("number is positive")
+// }
+// else if (num < 0){
+//     alert("number is negetive")
+// }
+// else if (num === 0){
+//     alert("number is same")
+// }
 
+// Chapter # 12-13 assignment # Task 4
 
+// var char = prompt("Enter character")
+// if (char === 'a'||'e'||'i'||'o'||'u'){
+//     alert("true")
+// }
+// else{
+//     alert("false")
+// }
 
+// Chapter # 12-13 assignment # Task 5
 
+// var pass = 12345;
 
+// var input = +prompt("Enter password")
+// if (input === pass){
+//     alert("Correct! The password you entered matches the original password.")
+
+// }
+// else{
+//     alert("Please enter your password")
+// }
+
+// Chapter # 12-13 assignment # Task 6
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else{
+// greeting = "Good evening";
+// }
+
+// Chapter # 12-13 assignment # Task 7
+
+// var time = +prompt("enter time")
+// if (time >= 0000 && time < 1200){
+//     alert("Good morning!")
+
+// }
+// else if (time >= 1200 && time < 1700){
+//     alert("Good Afternoon!")
+
+// }
+// else if (time >= 1200 && time < 2100){
+//     alert("Good evening!")
+
+// }
+// else if (time >= 2100 && time <= 2359){
+//     alert("Good Night!")
+
+// }
+// else{
+//     alert("Retype")
+// }
 
 
 
