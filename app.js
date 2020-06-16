@@ -656,5 +656,44 @@ var two = 5;
 // }
 
 
+// Chapter # 14-16 assignment # Task 1,2
+
+var name = [];
+
+// Chapter # 14-16 assignment # Task 3
+var arrString = ["apple","mango"];
+
+// Chapter # 14-16 assignment # Task 4
+var num = [2,4,5];
+
+// Chapter # 14-16 assignment # Task 5
+var bool = [true , false];
+
+// Chapter # 14-16 assignment # Task 6
+var mix = [0,55,"apple","mango"]
+
+// Chapter # 14-16 assignment # Task 7
+
+// var qul = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"]
+// document.write("Qualification <br>")
+// document.write(qul[0]+"<br>"+qul[1]+"<br>"+qul[2]+"<br>"+qul[3]+"<br>"+qul[4]+"<br>"+qul[5]+"<br>"+qul[6]+"<br>"+qul[7] )
+
+
+// Chapter # 14-16 assignment # Task 8
+
+// var name = ["Michael","John","Tony"]
+// var score = [320,230,480]
+// console.log(name)
+
+// document.write("Score of "+name[0]+ "is "+ score[0] +" Percentage is "+score[0] /500*100+"<br>")
+// document.write("Score of "+name[1]+ "is "+ score[1] +" Percentage is "+score[1] /500*100+"<br>")
+// document.write("Score of "+name[2]+ "is "+ score[2] +" Percentage is "+score[2] /500*100+"<br>")
+
+// Chapter # 14-16 assignment # Task 9
+
+
+
+
+
 
 
