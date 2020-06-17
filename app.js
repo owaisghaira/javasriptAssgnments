@@ -690,10 +690,84 @@ var mix = [0,55,"apple","mango"]
 // document.write("Score of "+name[2]+ "is "+ score[2] +" Percentage is "+score[2] /500*100+"<br>")
 
 // Chapter # 14-16 assignment # Task 9
+// //a  #add begining element
+// var color = ['green','yellow','red'];
+// color.splice(0,0 ,prompt("your color"));
+// document.write(color);
+
+//b add end element
+// var color = ['green','yellow','red'];
+// color.push(prompt("your color"));
+// document.write(color);
+
+//c  add 2 element in begining
+//  var color = ['green','yellow','red'];
+//  color.unshift(prompt("your color 1"),prompt("your color 2"))
+//  document.write(color);
+
+// d delete first element
+// var color = ['green','yellow','red'];
+// color.shift();
+// document.write(color);
+
+//e  delete last one
+
+// var color = ['green','yellow','red'];
+//  color.pop();
+//  document.write(color);
+
+//f. user add his own index
+// var color = ['green','yellow','red'];
+// color.splice(prompt("your index"),0 ,prompt("your color"));
+//  document.write(color); 
+
+//g user delete his own index
+//  var color = ['green','yellow','red'];
+//  color.splice(prompt("your index"),prompt("how many elements "));
+//   document.write(color);
 
 
+// Chapter # 14-16 assignment # Task 10
 
+// var score = [320,230,450,76]
+// score.sort(function(a, b){return a-b});
+// document.write(score);
 
+// Chapter # 14-16 assignment # Task 11
 
+// var city = ["karachi","lahore","Islamabad","quetta","peshawar"]
+// var selectCity = city.slice(2,4);
+// document.write(selectCity);
+
+// Chapter # 14-16 assignment # Task 12
+
+// var arr = ["this","is","my","cat"]
+// arr.join();
+// document.write(arr)
+
+// Chapter # 14-16 assignment # Task 13
+
+// var comp = ["keyboard","mouse","printer","moniter"];
+// document.write("Devices <br>")
+// document.write(comp[0]+"<br>")
+// document.write(comp[1]+"<br>")
+// document.write(comp[2]+"<br>")
+// document.write(comp[3]+"<br>")
+
+// Chapter # 14-16 assignment # Task 14
+// var comp = ["keyboard","mouse","printer","moniter"];
+// var res = comp.reverse();
+// document.write(res)
+
+// Chapter # 14-16 assignment # Task 15
+// var cell = ["apple","samsung","huawei","xiomi"];
+
+// document.write("<select>");
+// for (var i=0 ; i < cell.length;i++ ){
+//     document.write("<option>"+ cell[i]  +"</option>");
+ 
+
+// }
+// document.write("</select>");
 
 
