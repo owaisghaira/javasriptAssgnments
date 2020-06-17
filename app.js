@@ -770,4 +770,93 @@ var mix = [0,55,"apple","mango"]
 // }
 // document.write("</select>");
 
+// Chapter # 17-20 assignment # Task 1
 
+// var arr = [];
+
+// Chapter # 17-20 assignment # Task 2
+
+// arr[0] = [0,1,2,3]
+// arr[1] = [1,0,1,2]
+// arr[2] = [2,1,0,1]
+
+// Chapter # 17-20 assignment # Task 3
+
+// for(var i= 1 ; i <= 10 ; i++){
+//     document.write(i +"<br>")
+// }
+
+// Chapter # 17-20 assignment # Task 4
+
+// var tab = +prompt("Enter a number to show its multiplication tabel")
+// var end = +prompt("Enter length of multiplication tabel")
+
+// var  i = [1]; 
+// for( i= 1 ; i <= end ; i++){
+
+//          document.write(tab + " X " + i + " = " + tab*i + "<br>")
+
+//  }
+ 
+ // Chapter # 17-20 assignment # Task 5
+
+//  var fruits = ['apple', 'banana', 'mango', 'orange','strawberry'];
+
+//  for (var i = 0; i<fruits.length ; i++){
+//      document.write(fruits[i] + "<br>")
+//  }
+
+// Chapter # 17-20 assignment # Task 6a
+
+// for (var i = 1 ; i<=15 ;i++){
+//     document.write(i + " ")
+// }
+
+// Chapter # 17-20 assignment # Task 6b
+
+// for (var i = 10 ; i > 0 ; i--){
+//     document.write(i + " ")
+// }
+
+// Chapter # 17-20 assignment # Task 6c
+
+// for (var i = 1 ; i <= 20 ; i++){
+//     if(i%2 === 0){
+//         document.write(i + "<br>")
+//     }
+
+//     }
+
+// Chapter # 17-20 assignment # Task 6d
+
+// for (var i = 1 ; i <= 20 ; i++){
+//     if(i%2 === 1){
+//         document.write(i + "<br>")
+//     }
+
+//     }
+
+// Chapter # 17-20 assignment # Task 6e
+
+// for (var i = 1 ; i <= 20 ; i++){
+//     if(i%2 === 0){
+//         document.write(i+"k" + "<br>")
+//     }
+
+//     }
+
+// Chapter # 17-20 assignment # Task 7
+
+var A = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+
+var search = prompt("Welcome to ABC bakery,What do you want to order sir/ma'am");
+for (var i = 0 ;i < A.length;i++){
+    if (search === A[i]){
+        alert(search +" is available at index" + i + "in our bakery")
+    } 
+    else{
+        alert("we are sorry" )
+        break;
+    }
+
+}
