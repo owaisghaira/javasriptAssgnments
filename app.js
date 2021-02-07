@@ -118,8 +118,8 @@
 //Chapter # 5 assignment
 
 //Task 1
-var one = 3;
-var two = 5;
+// var one = 3;
+// var two = 5;
 //var result = one + two ;
 //document.write("Sum of "+ one +" and " + two + " is " + result)
 
@@ -800,9 +800,9 @@ var mix = [0,55,"apple","mango"]
  
  // Chapter # 17-20 assignment # Task 5
 
-//  var fruits = ['apple', 'banana', 'mango', 'orange','strawberry'];
+// var fruits = ['apple', 'banana', 'mango', 'orange','strawberry'];
 
-//  for (var i = 0; i<fruits.length ; i++){
+ // for (var i = 0; i<fruits.length ; i++){
 //      document.write(fruits[i] + "<br>")
 //  }
 
@@ -847,16 +847,737 @@ var mix = [0,55,"apple","mango"]
 
 // Chapter # 17-20 assignment # Task 7
 
-var A = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+// var A = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
 
-var search = prompt("Welcome to ABC bakery,What do you want to order sir/ma'am");
-for (var i = 0 ;i < A.length;i++){
-    if (search === A[i]){
-        alert(search +" is available at index" + i + "in our bakery")
-    } 
-    else{
-        alert("we are sorry" )
-        break;
-    }
+// var search = prompt("Welcome to ABC bakery,What do you want to order sir/ma'am");
+// for (var i = 0 ;i < A.length;i++){
+//     if (search === A[i]){
+//         alert(search +" is available at index " + i + " in our bakery")
+//         break;
+//     } 
+//     else{
+//         alert("we are sorry" )
+//         break;
+//     }
+// }
 
-}
+// Chapter # 17-20 assignment # Task 8
+
+// var A = [24, 53, 78, 91, 12];
+// document.write(A + "<br>")
+
+// for (var i = 0 ; i <= A.length ; i++){
+//     if (A[i] > 90){
+//         document.write("The largest no. is "+A[i])
+//     } 
+
+// }
+
+// Chapter # 17-20 assignment # Task 9
+
+// var A = [24, 53, 78, 91, 12];
+// document.write(A + "<br>")
+
+// for (var i = 0 ; i <= A.length ; i++){
+//     if (A[i] < 13){
+//         document.write("The smallest no. is "+A[i])
+//     } 
+
+// }
+
+// Chapter # 17-20 assignment # Task 10
+
+
+// for (var i = 1 ; i <= 20 ; i++){
+    
+//         document.write(5 * i + ", "); 
+
+// }
+// chapter # 21-25 Task no. # 1 
+
+// var first = prompt("Enter First Name ","your name plz")
+// var last = prompt("Enter last Name ","your last name plz")
+// var full = first +" "+ last;
+// alert("welcome "+full)
+
+// chapter # 21-25 Task no. # 2
+// var str = prompt("enter your favourite cell phone")
+// var numb = str.length
+
+// for  (var i = 0 ; i < numb ; i++){
+//     if (str.slice(i, i + 3) === " "){
+//         alert("No double spaces")
+//         break;
+//     }
+// }
+// document.write("length is "+ numb)
+
+// chapter # 21-25 Task no. # 3
+
+// var lett = 'pakistani';
+// var ind = lett.indexOf('n')
+// document.write('string is Pakistani <br>');
+// document.write('index of n is '+ind)
+
+// chapter # 21-25 Task no. # 4
+
+
+// var lett = 'hello world';
+// var ind = lett.lastIndexOf('l')
+// document.write('string is hello world <br>');
+// document.write('Last index of l is '+ind)
+
+// chapter # 21-25 Task no. # 5
+
+// var lett = 'pakistani';
+// var ind = lett.charAt(3)
+// document.write('string is Pakistani <br>');
+// document.write('index of i is '+ind)
+
+// chapter # 21-25 Task no. # 6
+
+// var first = prompt("Enter First Name ","your name plz")
+// var last = prompt("Enter last Name ","your last name plz")
+// var full = first.concat(" ",last)
+// alert("welcome "+full)
+
+// chapter # 21-25 Task no. # 7
+
+// var str = 'Hyderabad';
+// var rep = str.replace('Hyder','Islam')
+// document.write(rep)
+
+// chapter # 21-25 Task no. # 8
+
+// var message = 'Ali and Sami are best friends. They play cricket and football together.';
+// var rep = message.replace(/and/g,"&")
+// document.write(rep)
+
+// chapter # 21-25 Task no. # 9
+
+// var str = "472";
+// var con = Number(str)
+// document.write("Value : <br>")
+// document.write("string :"+ str +"<br>")
+// document.write("Value : <br>")
+// document.write("number : " + con)
+
+// chapter # 21-25 Task no. # 10
+
+// var input = prompt("your name plz")
+// input = input.toUpperCase()
+// document.write(input)
+
+// chapter # 21-25 Task no. # 11
+
+//  var input = prompt("your name plz")
+//  var first = input.slice(0,1)
+//  var second = input.slice(1)
+//  first = first.toUpperCase();
+//  second = second.toLowerCase()
+//  alert(first+second)
+
+// chapter # 21-25 Task no. # 12
+
+// var num = 35.36
+// var str = num.toString();
+// str = str.replace(".","")
+// document.write('number '+num+'<br>')
+// document.write('Result '+str)
+
+// chapter # 21-25 Task no. # 13
+
+// var name = prompt('your name plz')
+// var c = false;
+// for (var i = 0 ; i <= name.length ; i++){
+//     if (name.slice(i , i+1) === "@"||
+//      name.slice(i , i+1) === "!" ||
+//      name.slice(i , i+1) === ","||
+//      name.slice(i , i+1) === "."  ){
+//         c = true;
+//         break;
+//     }
+    
+    
+// }
+// if(c){
+//     alert('enter valid no.')
+// }
+// else{
+//     alert('thanku '+ name)
+// }
+
+// chapter # 21-25 Task no. # 14
+
+// A = ["apple pie", "cookie", "chips", "patties","cake"];
+// var input = prompt("welcome to ABC bakery.What do you want to order Sir / Ma'am");
+// var c = input.toLowerCase();
+
+
+// for (var i= 0; i < 5 ; i++){
+//     if (c === A[i]){
+//         alert(c + ' is available in our bakery')
+//         break;
+//     }
+//     else{
+//         alert('We are sorry ')
+//         break;
+//     }
+// }
+
+// chapter # 21-25 Task no. # 15
+
+// var pass = prompt('Enter valid password')
+// if (pass.length <= 6 && pass.length === " "){
+//     if(pass.slice(0,1).charCodeAt() < 65){
+//         alert('password start character')
+//     }
+//     else{
+//         alert('succeed')
+
+//     }
+
+// }
+// else{
+//     alert('character must be 6')
+// }
+
+// chapter # 21-25 Task no. # 16
+
+// var uni = 'University Of Karachi'
+// for (var i = 0; i <uni.length ; i++){
+//     document.write(uni[i] + '<br>')
+//}
+
+// chapter # 21-25 Task no. # 17
+
+// var inp = prompt('enter here')
+// inp = inp.slice(-1)
+// alert(inp)
+
+// chapter # 21-25 Task no. # 18
+
+// var para = 'The quick brown fox jumps over the lazy dog';
+// para = para.toLowerCase();
+// console.log(para)
+// var count = 0;
+
+// for (var i = 0; i < para.length; i++){
+//    if ( para.slice(i,i+3) === 'the'){
+//        count++;
+//    }
+// }
+// document.write("there are "+count+" occurence of word the")
+
+// chapter # 26-30 Task no. # 1
+
+// var num = +prompt('Enter a No.' );
+// var roun = Math.round(num);
+// var cei = Math.ceil(num)
+// var flo = Math.floor(num)
+// document.write("Number : "+num + "<br>")
+// document.write("Round of value : "+roun + "<br>")
+// document.write("Ceil value : "+cei + "<br>")
+// document.write("floor value : "+flo + "<br>")
+
+// chapter # 26-30 Task no. # 2
+
+// var num = prompt('Enter a No.' );
+// var sin = num.slice(0,1);
+// console.log(sin)
+// if (sin === '-'){
+//     var roun = Math.round(num);
+// var cei = Math.ceil(num)
+// var flo = Math.floor(num)
+// document.write("Number : "+num + "<br>")
+// document.write("Round of value : "+roun + "<br>")
+// document.write("Ceil value : "+cei + "<br>")
+// document.write("floor value : "+flo + "<br>")
+
+
+// }
+// else{
+//     alert("enter negetive value")
+
+// }
+
+// chapter # 26-30 Task no. # 3
+
+// var num = prompt("enter")
+// num = Math.ceil(num)
+// console.log(num) 
+
+// chapter # 26-30 Task no. # 4
+
+// var num = Math.random()*6;
+// num = Math.round(num) 
+// document.write('random dice value is : '+num)
+
+//chapter # 26-30 Task no. # 5
+
+// var head = prompt("Heads user name...")
+// var tail = prompt("Tails user name .. ")
+
+// var num = Math.random()*2;
+// num = Math.floor(num)
+// console.log(num)
+// if (num === 0){
+//     alert("heads "+head+ " win the toss")
+// }
+// else{
+//     alert("tails "+tail+" win the toss")
+// }
+
+//chapter # 26-30 Task no. # 6
+
+// var num = Math.random()
+// num =  num.toString() 
+// num = num.slice(2,4)
+// document.write("Random number between 1 to 100 is : "+ num)
+
+//chapter # 26-30 Task no. # 7
+
+// var kilo = prompt("enter kgs")
+// document.write("The weight of user is "+ kilo)
+
+//chapter # 26-30 Task no. # 8
+
+// var num = Math.random() * 9 + 2 ;
+// num = Math.floor(num);
+// console.log(num)
+// var enternum = prompt("Guess any no.");
+// if (num == enternum){
+//     alert("you rocksss");
+// }
+// else{
+//     alert("fail")
+// }
+
+//chapter # 31-34 Task no. # 1
+
+// var a = new Date();
+// document.write(a)
+
+//chapter # 31-34 Task no. # 2
+
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(4,8);
+// document.write("current Month "+c)
+
+//chapter # 31-34 Task no. # 3
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(0,3)
+// document.write("Today is "+c)
+
+//chapter # 31-34 Task no. # 4
+
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(0,3);
+// console.log(c)
+// if (c === "sun"||c === "sat"){
+//     alert("It's fun day");
+// }
+// else{
+//     alert(c)
+// }
+
+//chapter # 31-34 Task no. # 5
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(8,10)
+// if (c < 16){
+//     alert("First fifteen days of the month")
+// }
+// else{
+//     alert("Last days of the month")
+// }
+
+//chapter # 31-34 Task no. # 6
+
+// var a = new Date();
+// var millsSince = a.getTime();
+// document.write(a+'<br>')
+// document.write("Miliseconds since jan,1 ,1970"+millsSince+"<br>");
+// var hor = millsSince/1000/60/60
+// document.write("Minutes since jan 1,1970"+hor)
+
+//chapter # 31-34 Task no. # 7
+
+// var a = new Date();
+// var b = a.toString();
+// var c = b.slice(16,18);
+// if (c <12){
+//     alert("it's AM")
+
+// }
+// else{
+//     alert("it's PM")
+// }
+
+//chapter # 35-38 Task no. # 1
+
+// function time(){
+//     var a = new Date();
+//     var b = a.toString()
+//     document.write(b)
+// }
+// time()
+
+//chapter # 35-38 Task no. # 2
+
+// function greet(){
+//     var f =prompt("First Name");
+//     var l = prompt("last name")
+//     var a = f + l
+//     alert("Hello "+ a)
+// }
+// greet()
+
+//chapter # 35-38 Task no. # 3
+
+//function greet(){
+    //     var f = +prompt("First No.");
+    //     var l = +prompt("last No.")
+    //     var a = f + l
+    //     alert("Sum is "+ a)
+    // }
+    // greet()
+
+//chapter # 35-38 Task no. # 4
+// function cal(){
+//        var num1 = +prompt("First No.");
+//         var num2 = +prompt("last No.")
+//         var oprtr = prompt("oprater")
+        
+//         if (oprtr === "+"){
+//             alert(num1+num2)
+
+//         }
+//         else if(oprtr === "-"){
+//             alert(num1 - num2)
+//         }
+//         else if(oprtr === "*"){
+//             alert(num1*num2)
+//         }
+//         else if (oprtr === "/"){
+//             alert(num1/num2)
+//         }
+//         else{
+//             alert("enter correct values")
+//         }
+
+//     }
+//     cal()
+
+//chapter # 35-38 Task no. # 5
+
+// var num = +prompt("Enter a number:");
+
+// function sumOfSquares(num) {
+
+//     for (var i=0;i<=num;i++) {
+//         var i = i*i;
+//         sum = i;
+// }
+//      document.write("The sum of squares for numbers up to and including " +num+ "is " +sum );
+
+// }
+
+// sumOfSquares(num);
+
+//chapter # 35-38 Task no. # 6
+
+// function fact(n){
+//     var num = 1;
+//     if (n == 0 || n == 1){
+//         return num;
+//     }
+//     else
+//     {
+//         for(var i = n ; i >= 1; i--){
+//             num = num *i;
+//         }
+//         return num;
+
+//     }
+// }
+// num = fact(prompt("enter a num that show factoraial"))
+// alert("the factorial is "+num)
+
+//chapter # 35-38 Task no. # 7
+
+// function run(){
+
+//     var start = prompt("first num");
+//     var end = prompt("end num");
+
+//     for(var i = start; i <= end; i++){
+//     document.write(i+"<br>")
+//     }
+// }
+// run()
+
+//chapter # 35-38 Task no. # 8
+
+//chapter # 35-38 Task no. # 9
+
+// var width = prompt("enter width")
+// var heigth = prompt("enter heigth") 
+// function area(width,heigth){
+//     return width * heigth;
+// }
+
+// //chapter # 35-38 Task no. # 10
+
+// var input1 = prompt("Enter your Name ")
+// var input2 = input1.split("").reverse().join("");
+// if (input1 === input2){
+//     alert("The given word is palindrom")
+// }
+// else{
+//     alert("The word is not a aplandrom word")
+// }
+
+
+// //chapter # 38-42 Task no. # 1
+
+// var a = +prompt("enter value A")
+// var b = +prompt("Enter power value")
+// var p=a;
+
+// function power(a,b){
+
+//     for(var i=1;i <b ;i++){
+//         p=p*a
+//     }
+//     return p;
+// }
+
+// console.log(power(a,b))
+
+ //chapter # 38-42 Task no. # 2
+
+//  var year = +prompt("enter year")
+//  if (year % 100 === 0 || year % 400 === 0 || year % 4 === 0){
+//      alert("leap year")
+
+//  }
+//  else{
+//      alert("sorry")
+//  }
+
+ //chapter # 38-42 Task no. # 3
+//  var s = 0;
+//  function calS(a,b,c){
+//      s = a+b+c
+//      s = s/2
+
+//  }
+//  calS(5,5,5)
+//  console.log(s)
+
+//  function area(a,b,c){
+//     a = s-a
+//     b = s-b
+//     c = s-c
+//     var d = a*b*c
+//     s = s*d
+//  }
+//  area(5,5,5);
+//  console.log(s)
+
+//chapter # 38-42 Task no. # 4
+
+// var sub1 = +prompt("Enter subject 1 Marks")
+// var sub2 = +prompt("Enter subject 2 Marks")
+// var sub3 = +prompt("Enter subject 3 Marks")
+// var tol;
+// var percentage;
+// var total = 300;
+// function avr(a,b,c){
+//      tol = a+b+c
+//     return tol/3
+// }
+// var avrR = avr(sub1,sub2,sub3)
+// console.log(avrR)
+
+// function perc(d){
+//     percentage = d * 3 * 100 / 300;
+//      return percentage;   
+// }
+// var perR = perc(avrR);
+// console.log(perR);  
+
+///chapter # 38-42 Task no. # 5
+
+// var ex = "Example";
+// console.log(ex.indexOf("m"))
+
+// //chapter # 38-42 Task no. # 6
+// var string = "heelloo world";
+// function vowels(){
+
+//  return string.replace( /[aeiou]/g, '' );
+// }
+// console.log(vowels()); 
+
+///chapter # 38-42 Task no. # 7
+// var text = "Pleases read this application and give me gratuity"
+// function findOccurrences() {
+//     var res = text.math(/[aeiou]{2}/g);
+//     return res;
+//   }
+  
+//   var found = findOccurrences();
+  
+//   console.log(found);
+
+///chapter # 38-42 Task no. # 8
+
+// function conMeter(a){
+//     return a*1000
+// }
+// var re = conMeter(prompt("enter km "))
+// alert(re+" Meters")
+
+
+// function conFeet(a){
+//     return a*3280.8
+// }
+// var re = conFeet(prompt("enter km "))
+// alert(re+" Feet")
+
+// function conInch(a){
+//     return a* 39370.078740157
+// }
+// var re = conInch(prompt("enter km "))
+// alert(re+" Inches")
+
+// function conCentimeter(a){
+//     return a* 100000
+// }
+// var re = conCentimeter(prompt("enter km "))
+// alert(re+" Centimeter")
+
+//chapter # 43-48 Task no. # 1
+// function on(){
+
+//      alert("hello")
+//  }
+
+//chapter # 43-48 Task no. # 2
+
+// function al(){
+//     alert("Thanks for purchasing...")
+// }
+
+//chapter # 43-48 Task no. # 3
+
+// function itemDelete(e){
+//    var a = (e.parentNode);
+//    a.parentNode.remove();
+
+// }
+
+//chapter # 43-48 Task no. # 4
+
+// In html coding
+
+//chapter # 49-52 Task no. # 1 or 3
+// function submit(){
+//     var nam = document.getElementById("name-input")
+//     var h = document.createElement("h3")
+//     var text = document.createTextNode(nam.value)
+//     h.appendChild(text)
+
+//     var nam1 = document.getElementById("email-input")
+//     var p = document.createElement("p")
+//     var text1 = document.createTextNode(nam1.value)
+//     p.appendChild(text1)
+
+//     var delbtn = document.createElement("button")
+//     var text1 = document.createTextNode("Delete")
+//     delbtn.appendChild(text1)
+//     delbtn.setAttribute("onclick","delet(this)")
+
+//     var li = document.createElement("li")
+//     li.appendChild(h)
+//     li.appendChild(p)
+//     li.appendChild(delbtn)
+
+    
+//     var layout = document.getElementById("layout")
+//     layout.appendChild(li)
+//     nam.value = "";
+//     nam1.value = "";
+
+// }
+// function delet(e){
+//     e.parentNode.remove();
+// }
+
+//chapter # 49-52 Task no. # 2
+
+// function readMore(){
+//     var n = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, nobis, obcaecati, quia tempore rerum dolorum velit illum ratione accusamus atque alias ducimus praesentium reprehenderit unde nihil tempora pariatur corrupti inventore!"
+//     var text = document.getElementById("para");
+//     text.innerHTML = n
+
+// }
+
+//chapter # 52-58 Task no. # 1
+
+// function showImage(e){
+//     var m = document.getElementById("modalimage")
+//     m.src = e.src
+// }
+
+//chapter # 52-58 Task no. # 2
+
+// function zoomIn(){
+
+//     var i = document.getElementById("text")
+//     i.className = "zomin"
+
+// }
+// function zoomout(){
+//     var i = document.getElementById("text")
+//     i.className = "zomout"
+    
+// }
+
+//chapter # 58-67 Task no. # 1(i)
+// var item = document.childNodes[1].childNodes[2].childNodes[3].childNodes[5]
+// console.log(item);
+
+
+// //chapter # 58-67 Task no. # 1(ii)
+
+// var item = document.childNodes[1].childNodes[2].childNodes[3].childNodes[5];
+// document.write(item.innerHTML)
+
+// //chapter # 58-67 Task no. # 1(iii)
+
+// var item = document.childNodes[1].childNodes[2].childNodes[3].childNodes[5]
+// var x = item.getElementsByClassName("render");
+// console.log(x)
+
+// //chapter # 58-67 Task no. # 1(iv)
+
+// var item = document.getElementById("first-name");
+// item.value = "aaa";
+
+// chapter # 58-67 Task no. # 1(v)
+// var ite = document.getElementById("last-name");
+// ite.value = "aa"
+
+// var it = document.getElementById("email");
+// it.value = "sd"
+
+// chapter # 58-67 Task no. # 2(i)
+var i = document.getElementById("form-content");
+var e = i.nodeType
+console.log(e)

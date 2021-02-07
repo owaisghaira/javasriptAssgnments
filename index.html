@@ -1,46 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javasript</title>
-    <script src="app.js"> </script>
-    <!-- 1#7a -->
-    <!-- <script>
-        alert ("head section script")
-
-    </script> -->
-    
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<!--Task 1#7b
-     <script>
-        alert ("before body section script")
 
-    </script> -->
 <body>
-    <!--Task 1#7c -->
-    <!-- <script>
-        alert ("inside body section script")
+   <!-- //chapter # 58-67 Task no. # 1 -->
+   <div>
+    <h1> DOM </h1>
+    <div id=”form-content” class=”content”>
+      <label for=”first-name”>First Name</label>
+      <input type=”text” id=”first-name” />
+      <label for=”last-name”>Last Name</label>
+      <input type=”text” id=”last-name” />
+      <label for=”email”>Email</label>
+      <input type=”text” id=”email” />
+    </div>
+    <div id=”main-content” class=”content”>
+      <p class=”render”> First Name : Alex</p>
+      <p class=”render” id=”lastName”>Last Name: Bank</p>
+      <p class=”render”> Email : alexbank@example.com</p>
+      <p class=”render”> Country : Pakistan </p>
+      <p class=”render”> contact : +92 300 1234567</p>
+    </div>
+  </div>
+ 
+  <!-- <a id="link" onclick="on()" href="">link</a> -->
+  <!-- <div>
+        <img width="100px" onclick="al()" src="https://gsmorigin.com/wp-content/uploads/2016/09/Apple-iphone-7-plus-425x425.jpg" alt="">
+        <img width="100px"  src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-1.jpg" onclick="al()" alt="">
+        
+    </div> -->
+  <!-- //chapter # 43-48 Task no. # 4 -->
+  <!-- <img width="200px" src="https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-1.jpg" onmouseover="src='https://gsmorigin.com/wp-content/uploads/2016/09/Apple-iphone-7-plus-425x425.jpg'" onmouseout="src='https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-7-pro-1.jpg'" alt=""> -->
 
-    </script> -->
-
- <!--Task #6   
-    <p>Click the button to display a confirm box.</p>
-
-    <button onclick="myFunction()">Try it</button>
+  <!-- //chapter # 49-52 Task no. # 1 -->
+  <!-- <div id="layout">
     
-    <script>
-    function myFunction() {
-      alert ("Press a button!");
-    }
-    </script> -->
-    <!-- addition -->
+        Name:
+        <input id="name-input" type="text">
+        Email:
+        <input id="email-input" type="text">
+        <button onclick="submit()">submit</button>
+    
+    </div> -->
+
+  <!-- //chapter # 43-48 Task no. # 3 -->
+  <!-- <table>
+    <tr>
+       <th>index</th>
+       <th>name</th>
+       <th>class</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>jhone</td>
+        <td>10</td>
+        <td><button onclick="itemDelete(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mark</td>
+        <td>9</td>
+        <td><button onclick="itemDelete(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mark</td>
+        <td>10</td>
+        <td><button onclick="itemDelete(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>james</td>
+        <td>10</td>
+        <td><button onclick="itemDelete(this)">Delete</button></td>
+    </tr>
+   </table> -->
+  <!-- //chapter # 49-52 Task no. # 2 -->
+
+  <!-- <p id="para">Lorem ipsum dolor sit amet <a href="javascript:void(0)" onclick="readMore()">Read more</a> </p> -->
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+
+  <!-- //chapter # 52-57 Task no. # 1 -->
+  <!-- 
+  <img onclick="showImage(this)" class="im" src="images/others/1.jpg" alt="" data-toggle="modal" data-target="#exampleModal">
+  <img onclick="showImage(this)" class="im" src="images/others/2.jpg" alt="" data-toggle="modal" data-target="#exampleModal">
+  <img onclick="showImage(this)" class="im" src="images/others/3.jpg" alt="" data-toggle="modal" data-target="#exampleModal">
+  <img onclick="showImage(this)" class="im" src="images/others/5.jpg" alt="" data-toggle="modal" data-target="#exampleModal">
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="bg-im" src="" alt="" id="modalimage">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+  <!-- //chapter # 52-58 Task no. # 2 -->
+  <!-- <div>
+     <p id="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+         Magni obcaecati nihil perferendis nemo exercitationem
+          quas odit fugiat, vitae velit. Asperiores fugit id 
+          ratione! Quisquam iusto laboriosam corporis et ipsam harum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Magni obcaecati nihil perferendis nemo exercitationem
+             quas odit fugiat, vitae velit. Asperiores fugit id 
+             ratione! Quisquam iusto laboriosam corporis et ipsam harum?</p>
+          <button onclick="zoomIn()">ZoomIn</button>
+          <button onclick="zoomout()">ZoomOut</button>
+ </div> -->
+
+ 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
 </body>
+<script src="app.js"></script>
 
 </html>
-<!-- 1#7d
-<script>
-    alert ("after html page  script")
-
-</script> -->
